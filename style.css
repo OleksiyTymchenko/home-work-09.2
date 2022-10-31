@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Roboto:wght@100;300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all 0.1s ease-in;
+}
+img {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  color: #fff;
+  font-family: sans-serif;
+  background-color: #2b81ac;
+  padding: 25px;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #e4e4e4;
+}
+
+p {
+}
+h1 {
+}
+h2 {
+}
+
+.button {
+}
+
+.section {
+  background-color: #3399cc;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*======================== title ====================================*/
+
+.title {
+  padding: 35px 0;
+}
+
+.title i {
+  display: inline-block;
+}
+
+.list {
+  font-size: 0;
+  background-color: #fff;
+  padding: 2px;
+  font-weight: 100;
+}
+
+.list__item {
+  display: inline-block;
+  font-size: 22px;
+  margin: 2px;
+  background-color: #3399cc;
+  text-align: center;
+  height: 150px;
+  padding: 25px;
+}
+
+.list__item a {
+  display: block;
+  font-weight: 100;
+}
+
+.list__item span {
+  display: block;
+  font-weight: 100;
+}
+.wi {
+  color: #fff;
+  font-size: 37px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.list__item:nth-child(1) {
+  background-color: #3399cc;
+
+  width: calc(50% - 8px);
+}
+.list__item:nth-child(2) {
+  background-color: #33cccc;
+  width: calc(25% - 4px);
+}
+.list__item:nth-child(3) {
+  background-color: #996699;
+  width: calc(25% - 0px);
+}
+.list__item:nth-child(4) {
+  background-color: #c24747;
+  width: calc(25% - 8px);
+}
+.list__item:nth-child(5) {
+  background-color: #e2674a;
+  width: calc(25% - 4px);
+}
+.list__item:nth-child(6) {
+  background-color: #ffcc66;
+  width: calc(25% - 4px);
+}
+.list__item:nth-child(7) {
+  background-color: #99cc99;
+  width: calc(25% - 0px);
+}
+.list__item:nth-child(8) {
+  background-color: #669999;
+  width: calc(25% - 4px);
+}
+.list__item:nth-child(9) {
+  background-color: #cc6699;
+  width: calc(50% - 8px);
+}
+.list__item:nth-child(10) {
+  background-color: #339966;
+  width: calc(25% - 0px);
+}
+.list__item:nth-child(11) {
+  background-color: #666699;
+  width: calc(100% - 4px);
+}
+.wishes {
+  padding-top: 35px;
+  padding-bottom: 100px;
+}
+/*========================== effects ================================*/
+.list:hover .list__item:not(:hover) {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 715px) {
+  .list .list__item {
+    display: inline-block;
+    font-size: 12px;
+    width: calc(100% - 4px);
+  }
+  .list {
+    padding-right: 2px;
+  }
+}
